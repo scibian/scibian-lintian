@@ -9,8 +9,9 @@ Vcs-Browser: https://github.com/scibian/scibian-lintian
 
 Package: scibian-lintian
 Architecture: all
-Description:
- Lintian checks and data for Scibian project.
+Description: Lintian checks and data for Scibian project.
+ This package provides checks and data for proper checks of packages
+ developed by the Scibian project.
 Depends:
  ${misc:Depends},
  lintian
