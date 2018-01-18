@@ -1,0 +1,10 @@
+Check-Script: scibian/maintainer
+Author: Scibian Project <scibian@scibian.org>
+Type: source
+Info: Check maintainer of Scibian packages
+
+Tag: scibian-wrong-maintainer
+Severity: serious
+Certainty: certain
+Info: The maintainer of Scibian package is wrong must be: Scibian
+ Project <packaging@scibian.org>

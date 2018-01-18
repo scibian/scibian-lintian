@@ -1,0 +1,16 @@
+Source: scibian-lintian
+Section: scibian
+Priority: optional
+Maintainer: Scibian Project <packaging@scibian.org>
+Build-Depends: debhelper (>= 9)
+Standards-Version: 3.9.6
+Vcs-Git: https://github.com/scibian/scibian-lintian.git
+Vcs-Browser: https://github.com/scibian/scibian-lintian
+
+Package: scibian-lintian
+Architecture: all
+Description:
+ Lintian checks and data for Scibian project.
+Depends:
+ ${misc:Depends},
+ lintian

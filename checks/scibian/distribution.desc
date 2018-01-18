@@ -1,0 +1,9 @@
+Check-Script: scibian/distribution
+Author: Scibian Project <scibian@scibian.org>
+Type: source
+Info: Check Scibian packages distribution name
+
+Tag: scibian-wrong-distribution
+Severity: serious
+Certainty: certain
+Info: The distribution of the Scibian package is not valid

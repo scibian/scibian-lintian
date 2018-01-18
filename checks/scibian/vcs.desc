@@ -1,0 +1,21 @@
+Check-Script: scibian/vcs
+Author: Scibian Project <scibian@scibian.org>
+Type: source
+Info: Check VCS-* metadata against Scibian development guidelines
+
+Tag: scibian-vcs-missing
+Severity: serious
+Certainty: certain
+Info: The VCS-* metadata are missing in debian/control file.
+
+Tag: scibian-vcs-not-org
+Severity: serious
+Certainty: certain
+Info: The VCS-* metadata do not link to GitHub Scibian organization Git
+ repositories.
+
+Tag: scibian-vcs-not-src-name
+Severity: serious
+Certainty: certain
+Info: The VCS repository name is different from the source package
+ name.

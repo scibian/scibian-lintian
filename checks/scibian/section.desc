@@ -1,0 +1,9 @@
+Check-Script: scibian/section
+Author: Scibian Project <scibian@scibian.org>
+Type: source
+Info: Check scibian section on Scibian specific native packages
+
+Tag: scibian-wrong-section
+Severity: serious
+Certainty: certain
+Info: The section of Scibian specific native package is not scibian.

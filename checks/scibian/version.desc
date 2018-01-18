@@ -1,0 +1,16 @@
+Check-Script: scibian/version
+Author: Scibian Project <scibian@scibian.org>
+Type: source
+Info: Check version number against Scibian development guidelines
+
+Tag: scibian-version-invalid
+Severity: serious
+Certainty: certain
+Info: The version number of the package does not follow the Scibian
+ developement guidelines.
+
+Tag: scibian-version-not-conform-distribution
+Severity: serious
+Certainty: certain
+Info: The version number of the package is not conform to the
+ distribution.
