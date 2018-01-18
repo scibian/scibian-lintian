@@ -1,3 +1,9 @@
+scibian-lintian (0.2sci8) scibian8; urgency=medium
+
+  * Fix description format in d/control
+
+ -- Rémi Palancher <remi-externe.palancher@edf.fr>  Thu, 18 Jan 2018 09:54:41 +0100
+
 scibian-lintian (0.1sci8u1) scibian8; urgency=medium
 
   * Initial release
