@@ -1,3 +1,9 @@
+scibian-lintian (0.1sci9u1) scibian9; urgency=medium
+
+  * Rebuild for scibian9
+
+ -- Rémi Palancher <remi-externe.palancher@edf.fr>  Thu, 18 Jan 2018 09:39:08 +0100
+
 scibian-lintian (0.1sci8u1) scibian8; urgency=medium
 
   * Initial release
