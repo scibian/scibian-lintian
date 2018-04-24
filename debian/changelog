@@ -1,3 +1,9 @@
+scibian-lintian (0.3sci8) scibian8; urgency=medium
+
+  * Adapt checks for aspects
+
+ -- Rémi Palancher <remi-externe.palancher@edf.fr>  Tue, 24 Apr 2018 15:55:11 +0200
+
 scibian-lintian (0.2sci8) scibian8; urgency=medium
 
   * Fix description format in d/control
