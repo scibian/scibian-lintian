@@ -34,18 +34,24 @@ sub run {
     }
 
     my $version = $info->field('version');
-    if ($version !~ /.*\dsci\d+u\d+$/) {
+    if ($version !~ /.*\dsci\d+(\+[a-z]+[\d.]+)?u\d+$/) {
         tag 'scibian-version-invalid';
     }
 
     my %entry = $info->changelog()->parse()->dpkg();
     my $distribution = $entry{Distribution};
-    my ($release) = $distribution =~ /scibian(\d+)/;
+    my ($release,$aspect) = $distribution =~ /scibian(\d+)(\+[a-z]+[\d.]+)?/;
     # In case of wrong distribution, $release may be undefined. In this case
     # error is raised by another check.
     if (defined($release)) {
-        if (not $version =~ /.*sci${release}u\d+$/) {
+        if (not $version =~ /.*sci${release}(\+[a-z]+[\d.]+)?u\d+$/) {
             tag 'scibian-version-not-conform-distribution';
+        }
+    }
+    if (defined($aspect)) {
+        $aspect = "\\".$aspect; # protect initial + with backslash
+        if (not $version =~ /.*sci\d+${aspect}u\d+$/) {
+            tag 'scibian-aspect-version-not-conform-aspect-distribution';
         }
     }
     return;

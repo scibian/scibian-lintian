@@ -14,3 +14,9 @@ Severity: serious
 Certainty: certain
 Info: The version number of the package is not conform to the
  distribution.
+
+Tag: scibian-aspect-version-not-conform-aspect-distribution
+Severity: serious
+Certainty: certain
+Info: The aspect in the version number of the package is not conform to
+ the aspect name in the distribution.
