@@ -1,3 +1,9 @@
+scibian-lintian (0.3sci9) scibian9; urgency=medium
+
+  * Rebuild for Scibian 9
+
+ -- Rémi Palancher <remi-externe.palancher@edf.fr>  Tue, 24 Apr 2018 16:13:18 +0200
+
 scibian-lintian (0.3sci8) scibian8; urgency=medium
 
   * Adapt checks for aspects
