@@ -32,7 +32,7 @@ sub run {
     my $distribution = $entry{Distribution};
     if ($distribution eq 'UNRELEASED') {
         # ignore
-    } elsif ($distribution !~ m/^scibian\d+$/) {
+    } elsif ($distribution !~ m/^scibian\d+(\+[a-z]+[\d.]+)?$/) {
         tag 'scibian-wrong-distribution';
     }
 
